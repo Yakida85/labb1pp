@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  labb1pp:
+    image: ${DOCKER_REGISTRY-}labb1pp
+    build:
+      context: .
+      dockerfile: labb1pp/Dockerfile
